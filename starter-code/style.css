@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    font-family:'Roboto';
+    font-weight: normal;
+}
+
+.clearfix{
+    clear: both;
+}
+
+nav {
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    padding-top: 15px;
+    height: 20px;
+    padding: 10px;
+}
+  
+nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+}
+
+header{
+    background: url(images/city-scape.svg);
+}
+
+h2{
+    font-weight: normal;
+}
+
+.top-links{
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+}
+
+.top-links li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.top-left{
+    display: inline-block;
+}
+
+.search{
+    padding: 10px;
+}
+
+.search-bar{
+    background: rgb(31, 82, 111);  
+    margin-top: 14px;
+    width: 80%;
+    float: left;
+    height: 25px;
+    color: white;
+}
+
+.build-amazing{
+    
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+    padding-bottom: 40px;
+    text-align: left;
+}
+
+.btn-signup{
+    background-color: rgb(240, 146, 51);
+    text-decoration: none;
+    color: white;
+    border: 2px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.npm-logo{
+    height: 50px;
+    padding: 10px;
+    float: left;
+
+}
+
+.collaboration{
+    background: rgb(48, 56, 71);  
+    color: white;
+    float: left;
+    width: 100%;
+}
+
+.sign-up{
+    text-align: center;
+    float: right;
+    padding: 30px;
+    margin-right:100px;
+}
+
+.learn-more{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.img-collab{
+    padding: 50px;
+    width: 80%;
+    float: left;
+    margin-left: 100px;
+
+}
+
+.img-collab-box{
+    float: left;
+}
+
+.what-is{
+    background: url(images/forklift.svg);
+    background-size: cover;
+    height: 500px;
+}
+
+.what-is-text{
+    color: white;
+    text-align: left;
+    padding: 10px;
+    float: left;
+    margin: 150px;
+}
+
+.features-text{
+    text-align: center;
+}
+
+.features-logos{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.individual-logos{
+    float: left;
+    width: 33%;
+    padding: 20px 0px 20px 0px;
+}
